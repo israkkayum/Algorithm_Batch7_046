@@ -1,5 +1,6 @@
 package com.mycompany.algorithm_final_project;
 
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class HomePage {
@@ -61,7 +62,7 @@ public class HomePage {
 
                     case 1:
                         // Insertion sort
-                        
+
                         InsertionSort insertionObj = new InsertionSort();
                         insertionObj.insertion_sort();
 
@@ -72,7 +73,7 @@ public class HomePage {
 
                         SelectionSort selectionObj = new SelectionSort();
                         selectionObj.selection_sort();
-                        
+
                         break;
 
                     case 3:
@@ -86,16 +87,22 @@ public class HomePage {
                     case 4:
                         // Marge sort
 
+                        MergeSort mergeObj = new MergeSort();
+                        mergeObj.main_func();
+
                         break;
 
                     case 5:
                         // Quick sort
+                        
+                        QuickSort qsObj = new QuickSort();
+                        qsObj.main_func();
 
                         break;
 
                     case 6:
                         // Counting sort
-                        
+
                         CountingSort countingObj = new CountingSort();
                         countingObj.counting_sort();
 
@@ -103,7 +110,7 @@ public class HomePage {
 
                     case 7:
                         // Radix sort
-                        
+
                         RadixSort radixObj = new RadixSort();
                         radixObj.radix_sort();
 
@@ -112,30 +119,48 @@ public class HomePage {
                     case 8:
                         // Heap sort
 
+                        HeapSort hsObj = new HeapSort();
+                        hsObj.main_func();
+
                         break;
 
                     case 9:
                         // Bin sort
 
+                        BinSort binObj = new BinSort();
+                        binObj.main_func();
+
                         break;
 
                     case 10:
                         // Shell sort
+                        
+                        ShellSort ssObj = new ShellSort();
+                        ssObj.main_func();
 
                         break;
 
                     case 11:
                         // Linear search
+                        
+                        LinearSearch lsObj = new LinearSearch();
+                        lsObj.main_func();
 
                         break;
 
                     case 12:
                         // Binary search
+                        
+                        BinarySearch bsObj = new BinarySearch();
+                        bsObj.main_func();
 
                         break;
 
                     case 13:
                         // Euclidean GCD algorithm
+
+                        EuclideanGCD gcdObj = new EuclideanGCD();
+                        gcdObj.main_func();
 
                         break;
 
@@ -146,22 +171,34 @@ public class HomePage {
 
                     case 15:
                         // Stack
+                        
+                        Stack sObj = new Stack();
+                        sObj.main_func();
 
                         break;
 
                     case 16:
                         // Queue
+                        
+                        Queue qObj = new Queue();
+                        qObj.main_func();
 
                         break;
 
                     case 17:
                         // Linked list
+                        
+                        LinkedListStruc llObj = new LinkedListStruc();
+                        llObj.main_func();
 
                         break;
 
                     case 18:
                         // Fibonacci series
 
+                        FibonacciSeries fsObj = new FibonacciSeries();
+                        fsObj.main_func();
+                        
                         break;
 
                     case 19:
@@ -209,21 +246,29 @@ public class HomePage {
 
                 int b = s.nextInt();
 
+                System.out.println("");
+
                 switch (b) {
 
                     case 1:
-                        // Largest Common Subsequence
+                        // Longest Common Subsequence
+
+                        LongestCommonSubsequence lcsObj = new LongestCommonSubsequence();
+                        lcsObj.main_func();
 
                         break;
 
                     case 2:
                         // Optimal Binary Search tree
 
+                        OptimalBinarySearchTree OBSTObj = new OptimalBinarySearchTree();
+                        OBSTObj.main_func();
+
                         break;
 
                     case 3:
                         // Matrix Chain Multiplication
-                        
+
                         matrixChainMultiplication matrixObj = new matrixChainMultiplication();
                         matrixObj.main_method();
 
@@ -232,11 +277,14 @@ public class HomePage {
                     case 4:
                         // Strassen's Matrix Multiplication Algorithm
 
+                        StrassensMatrixMultiplication smmObj = new StrassensMatrixMultiplication();
+                        smmObj.main_func();
+
                         break;
 
                     case 5:
                         // BFS
-                        
+
                         BFS bfsObj = new BFS();
                         bfsObj.bfs_graph();
 
@@ -244,10 +292,10 @@ public class HomePage {
 
                     case 6:
                         // DFS
-                        
+
                         DFS dfsObj = new DFS();
                         dfsObj.dfs_graph();
-                        
+
                         break;
 
                     case 7:
@@ -258,6 +306,9 @@ public class HomePage {
                     case 8:
                         // Longest Increasing Subsequence
 
+                        LongestIncreasingSubsequence lisObj = new LongestIncreasingSubsequence();
+                        lisObj.main_func();
+
                         break;
 
                     case 9:
@@ -267,6 +318,9 @@ public class HomePage {
 
                     case 10:
                         // Krushkal's algorithm
+
+                        Kruskals krusObj = new Kruskals();
+                        krusObj.main_func();
 
                         break;
 
@@ -288,11 +342,14 @@ public class HomePage {
                     case 14:
                         // Worshall's algorithm
 
+                        FloydWarshall fwObj = new FloydWarshall();
+                        fwObj.main_func();
+
                         break;
 
                     case 15:
                         // (0,1) KKnapsack problem
-                        
+
                         zeroOneKnapsack knapsackObj = new zeroOneKnapsack();
                         knapsackObj.main_func();
 
@@ -301,15 +358,24 @@ public class HomePage {
                     case 16:
                         // Naive string matching algorithm
 
+                        NaiveStringMatching nsmObj = new NaiveStringMatching();
+                        nsmObj.main_func();
+
                         break;
 
                     case 17:
                         // Rabin krap string matching algorithm
 
+                        RabinKarpMatching rkmObj = new RabinKarpMatching();
+                        rkmObj.main_func();
+
                         break;
 
                     case 18:
                         // Activity selection problem
+
+                        ActivitySelection asObj = new ActivitySelection();
+                        asObj.main_func();
 
                         break;
 

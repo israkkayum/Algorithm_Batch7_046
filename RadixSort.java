@@ -65,7 +65,7 @@ public class RadixSort {
             }
 
             for (int i = 0; i < size; i++) {  // value copy
-                arr[i] = temp[i];  
+                arr[i] = temp[i];
             }
         }
 
