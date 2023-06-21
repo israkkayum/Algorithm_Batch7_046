@@ -66,25 +66,23 @@
 
 // 11. Prim's algorithm
 
+// 12. Dijkstra algorithm
 
- 
-// 12. Dijkstra algorithm ----------------------------------------------->      ✅      ✅
+// 13. Bellman Ford's algorithm
 
-// 13. Bellman Ford's algorithm ------------------------------------------>     ✅      ✅
+// 14. Warshall's algorithm
 
-// 14. Warshall's algorithm ---------------------------------------------->     ✅      ✅
+// 15. (0,1) Knapsack problem
 
-// 15. (0,1) Knapsack problem -------------------------------------------->     ✅      ✅
+// 16. Naive string matching algorithm 
 
-// 16. Naive string matching algorithm ----------------------------------->     ✅      ✅
+// 17. Rabin Karp string matching algorithm
 
-// 17. Rabin Karp string matching algorithm ------------------------------>     ✅      ✅
+// 18. Activity selection problem
 
-// 18. Activity selection problem ---------------------------------------->     ✅      ✅
+// 19. MST algorithm
 
-// 19. MST algorithm ----------------------------------------------------->     ✅      ✅
-
-// 20. Max flow min cut -------------------------------------------------->     ✅      ✅
+// 20. Max flow min cut
 
 
 
