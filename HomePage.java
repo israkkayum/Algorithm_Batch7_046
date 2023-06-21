@@ -277,7 +277,7 @@ public class HomePage {
                     case 3:
                         // Matrix Chain Multiplication
 
-                        matrixChainMultiplication matrixObj = new matrixChainMultiplication();
+                        MatrixChainMultiplication matrixObj = new MatrixChainMultiplication();
                         matrixObj.main_method();
 
                         break;
@@ -374,7 +374,7 @@ public class HomePage {
                     case 15:
                         // (0,1) KKnapsack problem
 
-                        zeroOneKnapsack knapsackObj = new zeroOneKnapsack();
+                        ZeroOneKnapsack knapsackObj = new ZeroOneKnapsack();
                         knapsackObj.main_func();
 
                         break;

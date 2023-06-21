@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author israkkayumchowdhury
  */
 
-public class matrixChainMultiplication {
+public class MatrixChainMultiplication {
     
     public static void print_optimal_parenthesis(int[][] s, int i, int j){
         if (i==j) {

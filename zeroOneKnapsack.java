@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author israkkayumchowdhury
  */
 
-public class zeroOneKnapsack {
+public class ZeroOneKnapsack {
     
     public int knapsack(int W, int[] wt, int[] val, int n)
     {
