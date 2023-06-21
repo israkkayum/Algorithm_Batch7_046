@@ -2,6 +2,11 @@ package com.mycompany.algorithm_final_project;
 
 import java.util.Scanner;
 
+/**
+ *
+ * @author israkkayumchowdhury
+ */
+
 public class matrixChainMultiplication {
     
     public static void print_optimal_parenthesis(int[][] s, int i, int j){

@@ -2,6 +2,11 @@ package com.mycompany.algorithm_final_project;
 
 import java.util.Scanner;
 
+/**
+ *
+ * @author israkkayumchowdhury
+ */
+
 public class OptimalBinarySearchTree {
 
     static double optimalBST(double[] keys, double[] freq) {

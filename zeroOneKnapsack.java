@@ -2,6 +2,11 @@ package com.mycompany.algorithm_final_project;
 
 import java.util.Scanner;
 
+/**
+ *
+ * @author israkkayumchowdhury
+ */
+
 public class zeroOneKnapsack {
     
     public int knapsack(int W, int[] wt, int[] val, int n)

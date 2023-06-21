@@ -3,6 +3,11 @@ package com.mycompany.algorithm_final_project;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ *
+ * @author israkkayumchowdhury
+ */
+
 public class StrassensMatrixMultiplication {
 
     public static int[][] matrixMultiply(int[][] A, int[][] B) {

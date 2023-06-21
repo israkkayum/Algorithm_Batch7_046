@@ -3,6 +3,11 @@ package com.mycompany.algorithm_final_project;
 import java.util.LinkedList;
 import java.util.Scanner;
 
+/**
+ *
+ * @author israkkayumchowdhury
+ */
+
 public class HomePage {
 
     public static void main(String[] args) {
@@ -166,6 +171,9 @@ public class HomePage {
 
                     case 14:
                         // Universal hashing
+                        
+                        UniversalHashing uhObj = new UniversalHashing();
+                        uhObj.main_func();
 
                         break;
 
@@ -300,6 +308,9 @@ public class HomePage {
 
                     case 7:
                         // DAG
+                        
+                        DirectAcyclicGraph dagObj = new DirectAcyclicGraph();
+                        dagObj.main_func();
 
                         break;
 
@@ -313,6 +324,9 @@ public class HomePage {
 
                     case 9:
                         // Topological sort
+                        
+                        TopologicalSort tsObj = new TopologicalSort();
+                        tsObj.main_func();
 
                         break;
 
@@ -326,17 +340,27 @@ public class HomePage {
 
                     case 11:
                         // Prim's algorithm
+                        
+                        // Prims pObj = new Prims();
+                        Kruskals pObj = new Kruskals();
+                        pObj.main_func();
 
                         break;
 
                     case 12:
                         // Dijkastra's algorithm
+                        
+                        Dijkstra dObj = new Dijkstra();
+                        dObj.main_func();
 
                         break;
 
                     case 13:
                         // Bellman Ford's algorithm
 
+                        BellmanFord bfObj = new BellmanFord();
+                        bfObj.main_func();
+                        
                         break;
 
                     case 14:
@@ -381,11 +405,17 @@ public class HomePage {
 
                     case 19:
                         // MST algorithm
+                        
+                        Kruskals mstObj = new Kruskals();
+                        mstObj.main_func();
 
                         break;
 
                     case 20:
                         // Max flow min cut
+                        
+                        MaxFlowMinCut mfmcObj = new MaxFlowMinCut();
+                        mfmcObj.main_func();
 
                         break;
 

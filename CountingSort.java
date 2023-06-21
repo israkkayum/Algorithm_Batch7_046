@@ -3,6 +3,11 @@ package com.mycompany.algorithm_final_project;
 
 import java.util.Scanner;
 
+/**
+ *
+ * @author israkkayumchowdhury
+ */
+
 public class CountingSort {
     
     public void counting_sort(){

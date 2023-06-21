@@ -1,6 +1,11 @@
 package com.mycompany.algorithm_final_project;
 import java.util.*;
 
+/**
+ *
+ * @author israkkayumchowdhury
+ */
+
 public class Kruskals {
     
     static int[] parent;
